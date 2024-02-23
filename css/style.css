@@ -18,7 +18,7 @@ html {
 body{
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
-    font-weight: weight;
+    font-weight: 300;
     font-style: normal;
 }
 :root {
@@ -69,11 +69,42 @@ main{
 .middle{
     justify-content: center;
 }
-.gap{
+.gap-top{
     gap: 20px;
+}
+.gap-cards{
+    gap: 15px;
+}
+.row{
+    flex-direction: row;
 }
 
 /* inside */
 main>ul{
     color: var(--color-txt-grey);
-} 
+}
+.section{
+    margin-left: 20px;
+    /* be aware of the calc */
+}
+.slot{
+    margin-top: 30px;
+    width: calc(100% / 6 - 35px);
+}
+.img img{
+    width: 100%
+}
+.slot h4{
+    color: var(--color-txt-grey)
+}
+.text-card{
+    color: var(--color-txt-main);
+    text-align: center;
+    font-weight: bold;
+}
+.card-title{
+    font-size: 25px;
+}
+.type{
+    color: var(--color-txt-grey);
+}
