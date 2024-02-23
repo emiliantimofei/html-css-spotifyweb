@@ -83,8 +83,9 @@ main{
 main>ul{
     color: var(--color-txt-grey);
 }
-.section{
+.section, .section-2{
     margin-left: 20px;
+    margin-top: 40px;
     /* be aware of the calc */
 }
 .slot{
