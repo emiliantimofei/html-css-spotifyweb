@@ -1,0 +1,58 @@
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul {
+    list-style: none;
+}
+.debug {
+    border: 1px solid red;
+    height: 20px;
+}
+/*general*/
+html {
+    scroll-behavior: smooth;
+}
+body{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+.d-flex{
+    display: flex;
+}
+.wrapper{
+    background-color: greenyellow;
+    height: 100vh;
+}
+#toolbar{
+    background-color: yellow;
+    height: 90px;
+}
+.content{
+    height: calc(100vh - 90px);
+    width: 100%;
+    background-color: blue;
+}
+#sidebar{
+    width: 200px;
+    background-color: grey;
+}
+main{
+    background-color: red;
+    /* flex-grow: 1; */
+    width: calc(100% - 200px);
+    padding-top: 100px;
+    overflow-y: auto;
+}
+.header{
+    background-color: rgba(0, 0, 0, 0.425);
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 200px;
+    width: calc(100% - 200px);
+}
