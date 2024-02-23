@@ -88,6 +88,11 @@ a{
     font-weight: bold;
     font-size: 0.7em;
 }
+ul li i{
+    margin-left: 32px;
+    font-size: 1.8em;
+    color: var(--color-evidence);
+}
 .section, .section-2, .section-3{
     margin-left: 20px;
     margin-top: 40px;
@@ -107,6 +112,7 @@ a{
     color: var(--color-txt-main);
     text-align: center;
     font-weight: bold;
+    margin-top: 10px;
 }
 .card-title{
     font-size: 1em;
@@ -126,4 +132,8 @@ a{
 .section-3, .img>img{
     aspect-ratio: 1 / 1;
     object-fit: cover;
+}
+/* effects */
+main>ul>li>a:hover{
+    color: var(--color-txt-main);
 }
