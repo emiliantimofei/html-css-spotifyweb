@@ -20,6 +20,7 @@ body{
     font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
+    font-size: 1em;
 }
 :root {
 	--color-main-color: #141922;
@@ -80,10 +81,14 @@ main{
 }
 
 /* inside */
-main>ul{
+a{
+    text-transform: uppercase;
     color: var(--color-txt-grey);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.7em;
 }
-.section, .section-2{
+.section, .section-2, .section-3{
     margin-left: 20px;
     margin-top: 40px;
     /* be aware of the calc */
@@ -104,8 +109,21 @@ main>ul{
     font-weight: bold;
 }
 .card-title{
-    font-size: 25px;
+    font-size: 1em;
 }
 .type{
     color: var(--color-txt-grey);
+    font-size: 0.7em;
+}
+.section2, .type{
+    font-weight: bold;
+}
+.section-3 .img{
+    overflow: hidden;
+    border-radius: 50%;
+    aspect-ratio: 1 / 1;
+}
+.section-3, .img>img{
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
 }
