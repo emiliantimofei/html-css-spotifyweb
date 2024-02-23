@@ -21,29 +21,34 @@ body{
     font-weight: weight;
     font-style: normal;
 }
-.d-flex{
-    display: flex;
+:root {
+	--color-main-color: #141922;
+	--color-evidence: #adff2f;
+	--color-txt-grey: #7d7f84;
+	--color-txt-main: #ffffff;
+	--color-side-bar: #000000;
+	--color-play-bar: #282828;
 }
 .wrapper{
-    background-color: greenyellow;
+    background-color: var(--color-main-color);
     height: 100vh;
 }
 #toolbar{
-    background-color: yellow;
+    background-color: var(--color-txt-grey);
     height: 90px;
 }
 .content{
     height: calc(100vh - 90px);
     width: 100%;
-    background-color: blue;
+    background-color: var(--color-main-color);
 }
 #sidebar{
     width: 200px;
-    background-color: grey;
+    background-color: var(--color-side-bar);
 }
 main{
-    background-color: red;
-    /* flex-grow: 1; */
+    background-color: var(--color-main-color);
+    color: var(--color-txt-main);
     width: calc(100% - 200px);
     padding-top: 100px;
     overflow-y: auto;
@@ -56,3 +61,19 @@ main{
     left: 200px;
     width: calc(100% - 200px);
 }
+/* utilities */
+
+.d-flex{
+    display: flex;
+}
+.middle{
+    justify-content: center;
+}
+.gap{
+    gap: 20px;
+}
+
+/* inside */
+main>ul{
+    color: var(--color-txt-grey);
+} 
