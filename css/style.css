@@ -179,7 +179,7 @@ ul li i{
     background-color: var(--color-side-bar);
 }
 #sidebar .sidebar-bottom{
-    height: 80px;
+   
     width: 100%;
     background-color: var(--color-side-bar);
 }
@@ -246,7 +246,7 @@ ul li i{
     height: 100%;
 }
 .sidebar-top{
-    height: 45%;
+    
     width: 100%;
 }
 .sidebar-bottom{
