@@ -184,10 +184,10 @@ ul li i{
 }
 
 #logo{
-    padding: 5px;
+    padding: 25px;
 }
 #logo-small{
-    padding: 5px;
+    padding: 25px;
     display: none;
 }
 #sidebar .nav img{
@@ -202,9 +202,13 @@ ul li i{
     color: var(--color-txt-grey);
     font-weight: bold;
 }
-.playlist{
-    padding: 5px;
+
+.playlist, .sidebar-bottom{
+    padding: 15px;
     margin-top: 20px;
+}
+.sidebar-bottom{
+    padding-bottom: 10px;
 }
 .playlist div.add-playlist span{
     color: var(--color-txt-grey);
