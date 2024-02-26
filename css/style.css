@@ -74,12 +74,21 @@ main{
 .f-column{
     flex-direction: column;
 }
+.f-row{
+    flex-direction: row;
+}
+.end{
+    align-content: flex-end;
+}
 .wrap{
     flex-wrap: wrap;
 }
 .align-center{
     align-items: center;
     align-content: center;
+}
+.align-self{
+    align-self: center;
 }
 .right{
     justify-content: flex-end;
@@ -231,7 +240,32 @@ ul li i{
     color: var(--color-txt-main);
     font-weight: bold;
 }
+#toolbar img{
+    height: 100%;
+}
+.sidebar-top{
+    height: 45%;
+    width: 100%;
+}
+.sidebar-bottom{
+    width: 100%;
+    height: 55%;
+}
 
+.sidebar-bottom .sb-top{
+    color: #7d7f84;
+    background-color: var(--color-side-bar);
+    width: 100%;
+}
+.sidebar-bottom .sb-bottom{
+    color: var(--color-txt-main);
+}
+.small-icon{
+    width: 20px;
+}
+.small-icon img{
+    width: 100%;
+}
 /* effects */
 nav a:after{
     content: "";
