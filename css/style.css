@@ -49,6 +49,7 @@ body{
 }
 #sidebar{
     width: 200px;
+    height: calc(100vh - 90px);
     background-color: var(--color-side-bar);
 }
 main{
@@ -102,7 +103,9 @@ main{
 .gap-top{
     gap: 20px;
 }
-
+.justify{
+    justify-content: space-between;
+}
 .row{
     flex-direction: row;
 }
@@ -227,6 +230,9 @@ ul li i{
 .playlist ul li{
     margin-top: 15px;
 }
+#sidebar{
+    font-size: 0.8em;
+}
 #sidebar ul.nav li a{
     padding: 0 5px 0 10px;
     border-left: 3px solid transparent;
@@ -272,6 +278,40 @@ ul li i{
 }
 .toolbar-left h6, i{
     color: var(--color-txt-grey);
+}
+.range{
+    accent-color: var(--color-txt-main);
+    width: 400px;
+}
+.range-small{
+    accent-color: var(--color-txt-main);
+    width: 100px;
+}
+.up i{
+    color: var(--color-txt-main);
+    padding: 4px 10px;
+}
+.up .fa-circle-play{
+    font-size: 30px;
+}
+.down{
+    color: var(--color-txt-main);
+    font-weight: bold;
+    font-size: 0.5em;
+    margin-top: 10px;
+}
+.toolbar-left{
+text-align: left;
+}
+.toolbar-center{
+    text-align: center;
+}
+.toolbar-right{
+    text-align: right;
+    font-size: 1em;
+}
+.toolbar-right i{
+    color: var(--color-txt-main);
 }
 /* effects */
 nav a:after{

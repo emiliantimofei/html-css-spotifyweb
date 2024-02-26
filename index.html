@@ -24,7 +24,7 @@
                     Effettua l'upgrade
                 </a>
             </div>
-            <div id="sidebar" class="d-flex f-column">
+            <div id="sidebar" class="d-flex f-column justify">
                 <div class="sidebar-top">
                     <div id="logo">
                         <img src="img/logo.svg" alt="logo">
@@ -239,7 +239,7 @@
 
             </main>
         </div>
-        <div id="toolbar">
+        <div id="toolbar" class="d-flex align-center f-row justify">
             <div class="toolbar-left d-flex pad-boxf1">
                 <div class="box-f-1 marg-betw">
                     <img src="img/sinister.jpeg" alt="sinister">
@@ -253,19 +253,24 @@
                     <i class="fa-regular fa-folder"></i>
                 </div>
             </div>
-            <div class="toolbar-center">
-                <div class="up">
-                    <!-- <i class="fa-solid fa-shuffle"></i>
+            <div class="toolbar-center d-flex f-column align-center pad-boxf1">
+                <div class="up d-flex f-row align-center">
+                    <i class="fa-solid fa-shuffle"></i>
                     <i class="fa-solid fa-backward-step"></i>
                     <i class="fa-regular fa-circle-play"></i>
                     <i class="fa-solid fa-forward-step"></i>
-                    <i class="fa-solid fa-rotate-right"></i> -->
+                    <i class="fa-solid fa-rotate-right"></i>
                 </div>
-                <di class="down">
-
+                <di class="down d-flex f-row align-center">
+                    <span>0:25</span>&nbsp;<input type="range" class="range">&nbsp;<span>4:35</span>
                 </di>
             </div>
-            <div class="toolbar.right"></div>
+            <div class="toolbar-right pad-boxf1">
+                <i class="fa-solid fa-list"></i>
+                <i class="fa-solid fa-tv"></i>
+                <i class="fa-solid fa-volume-high"></i>
+                <input type="range" class="range-small">
+            </div>
         </div>
     </div>
 </body>
