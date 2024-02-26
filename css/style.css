@@ -171,7 +171,7 @@ ul li i{
     aspect-ratio: 1 / 1;
 }
 .section-3, .img>img{
-    aspect-ratio: 1 / 1;
+    
     object-fit: cover;
 }
 #sidebar{
