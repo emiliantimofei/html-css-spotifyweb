@@ -184,7 +184,7 @@ ul li i{
 }
 
 #logo{
-    padding: 25px;
+    padding: 15px;
 }
 #logo-small{
     padding: 25px;
@@ -240,9 +240,6 @@ ul li i{
 #sidebar ul.nav li a{
     padding: 0 5px 0 10px;
     border-left: 3px solid transparent;
-}
-#sidebar .playlist ul{
-    overflow-y: auto;
 }
 .playlist{
     color: var(--color-txt-main);
