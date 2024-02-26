@@ -242,7 +242,6 @@ ul li i{
     border-left: 3px solid transparent;
 }
 #sidebar .playlist ul{
-    height: 100%;
     overflow-y: auto;
 }
 .playlist{
