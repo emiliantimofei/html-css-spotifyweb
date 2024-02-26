@@ -179,11 +179,7 @@ ul li i{
     width: 200px;
     background-color: var(--color-side-bar);
 }
-#sidebar .sidebar-bottom{
-   
-    width: 100%;
-    background-color: var(--color-side-bar);
-}
+
 #logo{
     padding: 5px;
 }
