@@ -39,7 +39,7 @@ body{
     height: 100vh;
 }
 #toolbar{
-    background-color: var(--color-txt-grey);
+    background-color: var(--color-play-bar);
     height: 90px;
 }
 .content{
@@ -67,7 +67,9 @@ main{
     width: calc(100% - 200px);
 }
 /* utilities */
-
+.h-gap{
+    gap: 2px;
+}
 .d-flex{
     display: flex;
 }
@@ -265,6 +267,21 @@ ul li i{
 }
 .small-icon img{
     width: 100%;
+}
+.box-f-1{
+    height: 60px;
+}
+.pad-boxf1{
+    padding: 10px;
+}
+.marg-betw{
+    margin: 5px;
+}
+.toolbar-left h5{
+    color: var(--color-txt-main);
+}
+.toolbar-left h6, i{
+    color: var(--color-txt-grey);
 }
 /* effects */
 nav a:after{
