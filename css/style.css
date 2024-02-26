@@ -62,6 +62,7 @@ main{
     background-color: rgba(0, 0, 0, 0.425);
     height: 80px;
     position: fixed;
+    z-index: 99;
     top: 0;
     left: 200px;
     width: calc(100% - 200px);
