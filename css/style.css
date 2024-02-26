@@ -238,17 +238,10 @@ ul li i{
 .playlist{
     color: var(--color-txt-main);
     font-weight: bold;
+    min-height: 0;
 }
 #toolbar img{
     height: 100%;
-}
-.sidebar-top{
-    
-    width: 100%;
-}
-.sidebar-bottom{
-    width: 100%;
-    height: 55%;
 }
 
 .sidebar-bottom .sb-top{
