@@ -358,6 +358,28 @@ nav a.active:after, nav a:hover:after{
     color: var(--color-txt-main);
     cursor: pointer;
 }
+.box-f-2 h6 a, .install a{
+    text-decoration: none;
+    color: var(--color-txt-grey);
+}
+.install a:hover{
+    color: var(--color-txt-main);
+}
+.box-f-2 h6 a:hover{
+    color: var(--color-txt-main);
+    text-decoration: underline;
+}
+.sb-bottom .small-icon{
+    overflow: hidden;
+    border-radius: 50%;
+    aspect-ratio: 1 / 1;
+    background-color: var(--color-txt-grey);
+}
+.sb-bottom .small-icon img{
+    object-fit: cover;
+    color: var(--color-txt-main);
+}
+
 /*media query*/
 @media screen and (max-width: 1200px){
     .slot{
