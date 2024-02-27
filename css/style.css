@@ -355,10 +355,8 @@ ul li i{
     aspect-ratio: 1 / 1;
 }
 .sb-bottom, .small-icon-2>img{
-    
     object-fit: cover;
 }
-
 /* effects */
 nav a:after{
     content: "";
@@ -426,6 +424,9 @@ a i.fa-heart:hover, a i.fa-folder:hover{
 .box-plus a i:hover{
     color: var(--color-txt-main);
 }
+.show{
+    display: none;
+}
 /*media query*/
 @media screen and (max-width: 1200px){
     .slot{
@@ -459,9 +460,6 @@ a i.fa-heart:hover, a i.fa-folder:hover{
     main{
         width: calc(100% - 50px);
     }
-    .toolbar-right{
-        display: none;
-    }
     .header{
         left: 50px;
         width: calc(100% - 50px);
@@ -480,6 +478,13 @@ a i.fa-heart:hover, a i.fa-folder:hover{
     }
     .nav{
         margin-top: 20px;
+    }
+    .pic{
+        display: none;
+    }
+    .show{
+        position: relative;
+        display: inline-block;
     }
 }
 @media screen and (max-height: 100px){
