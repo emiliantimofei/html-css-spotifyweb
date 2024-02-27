@@ -52,6 +52,7 @@ body{
     width: 200px;
     background-color: var(--color-side-bar);
     height: calc(100vh - 80px);
+    min-height: 480px;
     padding: 10px;
 }
 main{
@@ -185,7 +186,7 @@ ul li i{
     padding: 15px;
 }
 #logo-small{
-    padding: 25px;
+    padding: 15px;
     display: none;
 }
 #sidebar .nav img{
@@ -206,7 +207,6 @@ ul li i{
 .sidebar-bottom{
     background-color: var(--color-side-bar);
     width: 100%;
-    z-index: 98;
 }
 .playlist div.add-playlist span{
     color: var(--color-txt-grey);
@@ -284,7 +284,7 @@ ul li i{
 }
 .range{
     accent-color: var(--color-txt-main);
-    width: 400px;
+    max-width: 400px;
 }
 .range-small{
     accent-color: var(--color-txt-main);
@@ -414,5 +414,40 @@ nav a.active:after, nav a:hover:after{
 @media screen and (max-width: 768px){
     .slot{
         width: calc(100% / 2);
+    }
+}
+@media screen and (max-width: 576px){
+    #sidebar{
+        width: 50px;
+    }
+    main{
+        width: calc(100% - 50px);
+    }
+    .toolbar-right{
+        display: none;
+    }
+    .header{
+        left: 50px;
+        width: calc(100% - 50px);
+    }
+    #sidebar #logo{
+        display: none;
+    }
+    #sidebar #logo-small{
+        display:contents;
+    }
+    #sidebar .sidebar-top span{
+        display: none;
+    }
+    #sidebar .playlist{
+        display: none;
+    }
+    .nav{
+        margin-top: 20px;
+    }
+}
+@media screen and (max-height: 100px){
+    .header{
+        display: none;
     }
 }
