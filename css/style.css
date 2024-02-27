@@ -334,6 +334,9 @@ ul li i{
     font-size: 0.8em;
     height: 100%;
 }
+.toolbar-center .fa-circle-play{
+    transition: all .2s ease-in-out; 
+}
 .toolbar-right{
     text-align: right;
     font-size: 0.8em;
@@ -398,6 +401,15 @@ nav a.active:after, nav a:hover:after{
 }
 .header a:hover{
     transform: scale(1.1); 
+}
+.toolbar-center .fa-circle-play:hover{
+    transform: scale(1.1); 
+}
+input:hover{
+    accent-color: var(--color-evidence);
+}
+a i.fa-heart:hover, a i.fa-folder:hover{
+    color: var(--color-txt-main);
 }
 /*media query*/
 @media screen and (max-width: 1200px){
