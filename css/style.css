@@ -115,12 +115,20 @@ main{
 }
 
 /* inside */
+.create a, .box-plus a{
+    text-decoration: none;
+    color: var(--color-txt-grey);
+}
+.box-plus .fa-plus{
+    color: var(--color-side-bar);
+}
 .header a{
     text-decoration: none;
     color: var(--color-txt-main);
     border: var(--color-txt-main) solid 2px;
     border-radius: 30px;
     padding: 5px 10px;
+    margin-right: 20px;
 }
 nav a{
     text-transform: uppercase;
@@ -128,6 +136,7 @@ nav a{
     text-decoration: none;
     font-weight: bold;
     font-size: 0.7em;
+    transition: all .2s ease-in-out; 
 }
 ul li i{
     margin-left: 32px;
@@ -261,11 +270,14 @@ ul li i{
 .sidebar-bottom .sb-bottom{
     color: var(--color-txt-main);
 }
+.sb-top img{
+    margin-right: 20px;
+}
 .small-icon{
     width: 20px;
 }
-.small-icon img{
-    width: 100%;
+.small-icon-2{
+    width: 16px;
 }
 .box-f-1{
     height: 60px;
@@ -308,9 +320,9 @@ ul li i{
     color: var(--color-txt-main);
 }
 .toolbar-left{
-text-align: left;
-width: 20%;
-font-size: 0.8em;
+    text-align: left;
+    width: 20%;
+    font-size: 0.8em;
 }
 .toolbar-left img{
     height: 50px;
@@ -373,10 +385,6 @@ nav a.active:after, nav a:hover:after{
 .playlist ul li a:hover{
     color: var(--color-txt-main);
 }
-.add-playlist span:hover{
-    color: var(--color-txt-main);
-    cursor: pointer;
-}
 .box-f-2 h6 a, .install a{
     text-decoration: none;
     color: var(--color-txt-grey);
@@ -388,8 +396,9 @@ nav a.active:after, nav a:hover:after{
     color: var(--color-txt-main);
     text-decoration: underline;
 }
-
-
+.header a:hover{
+    transform: scale(1.1); 
+}
 /*media query*/
 @media screen and (max-width: 1200px){
     .slot{
