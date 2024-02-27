@@ -345,7 +345,23 @@ ul li i{
 .toolbar-right i{
     color: var(--color-txt-main);
 }
-
+.sb-top{
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    border-bottom: solid var(--color-txt-grey) 1px;
+}
+.small-icon-2{
+    background-color: var(--color-txt-grey);
+}
+.sb-bottom .small-icon-2{
+    overflow: hidden;
+    border-radius: 50%;
+    aspect-ratio: 1 / 1;
+}
+.sb-bottom, .small-icon-2>img{
+    
+    object-fit: cover;
+}
 
 /* effects */
 nav a:after{
