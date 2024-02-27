@@ -40,7 +40,7 @@ body{
 }
 #toolbar{
     background-color: var(--color-play-bar);
-    height: 90px;
+    height: 80px;
 }
 .content{
     height: calc(100vh - 80px);
@@ -50,8 +50,9 @@ body{
 }
 #sidebar{
     width: 200px;
-    height: calc(100vh - 80px);
     background-color: var(--color-side-bar);
+    height: calc(100vh - 80px);
+    padding: 10px;
 }
 main{
     background-color: var(--color-main-color);
@@ -69,6 +70,7 @@ main{
     left: 200px;
     width: calc(100% - 200px);
 }
+
 /* utilities */
 .h-gap{
     gap: 2px;
@@ -134,7 +136,7 @@ ul li i{
 .section, .section-2, .section-3{
     margin-left: 20px;
     margin-right: 20px;
-    margin-top: 40px;
+    margin-top: 30px;
     /* be aware of the calc */
 }
 .cards{
@@ -179,13 +181,6 @@ ul li i{
     
     object-fit: cover;
 }
-#sidebar{
-    width: 200px;
-    background-color: var(--color-side-bar);
-    height: calc(100vh - 80px);
-    padding: 10px;
-}
-
 #logo{
     padding: 15px;
 }
@@ -207,9 +202,6 @@ ul li i{
 }
 .sidebar-top{
     height: calc(100% - 30px);
-}
-.playlist{
-    margin-top: 20px;
 }
 .sidebar-bottom{
     background-color: var(--color-side-bar);
@@ -251,6 +243,7 @@ ul li i{
     color: var(--color-txt-main);
     font-weight: bold;
     min-height: 0;
+    margin-top: 15px;
 }
 .playlist ul{
     height: 100%;
@@ -310,14 +303,18 @@ ul li i{
     font-size: 0.5em;
     margin-top: 10px;
 }
+.sb-bottom .small-icon img{
+    object-fit: cover;
+    color: var(--color-txt-main);
+}
 .toolbar-left{
 text-align: left;
 width: 20%;
 font-size: 0.8em;
 }
-.toolbar-left>div img{
-    height: 40px;
-    width: 40px;
+.toolbar-left img{
+    height: 50px;
+    width: 50px;
 }
 .toolbar-center{
     text-align: center;
@@ -333,10 +330,7 @@ font-size: 0.8em;
 .toolbar-right i{
     color: var(--color-txt-main);
 }
-.sb-bottom .small-icon img{
-    object-fit: cover;
-    color: var(--color-txt-main);
-}
+
 
 /* effects */
 nav a:after{
