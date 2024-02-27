@@ -224,11 +224,8 @@ ul li i{
 .add-playlist{
     margin-top: 15px;
 }
-.box-plus{
-    color: var(--color-txt-grey);
-    width: 100%;
-    padding: 6px 8px;
-    background-color: var(--color-txt-grey);
+.box-plus a i{
+    font-size: 25px;
 }
 .box-plus>i{
     color: var(--color-side-bar);
@@ -261,7 +258,6 @@ ul li i{
 #toolbar img{
     height: 100%;
 }
-
 .sidebar-bottom .sb-top{
     color: #7d7f84;
     background-color: var(--color-side-bar);
@@ -425,6 +421,9 @@ input:hover{
     accent-color: var(--color-evidence);
 }
 a i.fa-heart:hover, a i.fa-folder:hover{
+    color: var(--color-txt-main);
+}
+.box-plus a i:hover{
     color: var(--color-txt-main);
 }
 /*media query*/
